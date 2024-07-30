@@ -19,10 +19,22 @@ console.log(resultElement);
 // ? FASE RACCOLTA
 // 2. Chiedo il nome all'utente
 
+const firstName = prompt('Inserisci il tuo nome', 'John');
+console.log(firstName, typeof firstName);
 
-const firstName = ('Inserisci il tuo nome , John')
+// 3. Chiedo il cognome all'utente
+
+const lastName = prompt('Inserisci il tuo cognome', 'Smith');
+console.log(lastName, typeof lastName);
+
+// 4. Chiedo il colore preferito all'utente
+
+const favouriteColour = prompt('Inserisci il tuo colore preferito');
+console.log(favouriteColour, typeof favouriteColour);
 
 // ? FASE ELABORAZIONE
+
+// 5. Creo una variabile che unisca tutti e 3 i dati con il numero 21
 
 // ? FASE OUTPUT
 
