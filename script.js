@@ -29,7 +29,7 @@ console.log(lastName, typeof lastName);
 
 // 4. Chiedo il colore preferito all'utente
 
-const favouriteColour = prompt('Inserisci il tuo colore preferito');
+const favouriteColour = prompt('Inserisci il tuo colore preferito', 'Red');
 console.log(favouriteColour, typeof favouriteColour);
 
 // ? FASE ELABORAZIONE
@@ -41,4 +41,8 @@ console.log(gatheredData, typeof gatheredData);
 
 
 // ? FASE OUTPUT
+
+// 6. Inserisco il risultato nell'elemento del DOM
+
+resultElement.innerText = `La tua nuova password è: ` + gatheredData;
 
